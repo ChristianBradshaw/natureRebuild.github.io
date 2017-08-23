@@ -2,13 +2,13 @@
   border-radius: 0;
 }
 
-#navbarNav{
-  margin-right: 35rem;
-}
-
 .jumbotron{
   background: url('/resources/img/hero.jpg')center center no-repeat;
   color: white;
   height: 60vh;
-  padding-top: 18vh;
+  padding-top: 30vh;
+}
+
+.email{
+  width: 25%;
 }
