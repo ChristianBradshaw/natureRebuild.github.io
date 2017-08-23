@@ -13,3 +13,11 @@
   width: 25%;
 }
 
+.tiles{
+  background: url('/resources/img/wherewework.jpeg') center center no-repeat;
+  height: 50vh;
+}
+
+.tilesText{
+  padding-top: 20vh;
+}
