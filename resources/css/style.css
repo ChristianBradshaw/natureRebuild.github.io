@@ -111,6 +111,9 @@ horizontalRule{
   margin-bottom: -1.7rem;
 }
 
+.special-image{
+  width: 600px;
+}
 
 /*grid*/
 
@@ -133,6 +136,7 @@ hr{
 .footerTop{
   background: #4B4949;
   color: white;
+  margin-top: 2%;
 }
 
 
