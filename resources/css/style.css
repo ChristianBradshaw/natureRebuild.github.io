@@ -53,6 +53,13 @@ horizontalRule{
   padding: 5px 20px;
 }
 
+.mainButton{
+  width: 50%;
+  margin-right: 15px ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /*navbar*/
 
 /*FOOTER*/
