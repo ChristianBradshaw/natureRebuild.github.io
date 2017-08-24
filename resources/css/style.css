@@ -73,9 +73,10 @@ horizontalRule{
 /*navbar*/
 
 .dropdown-menu {
-    width: 600px !important;
-    height: 400px !important;
+    width: 600px;
+    height: 400px;
 }
+
 
 #dropdownMenuButton{
   color: #333333;
@@ -89,7 +90,6 @@ horizontalRule{
 
 .navbar-nav li a{
   color: #333333;
-  font-weight: 700;
   font-size: 14px;
 }
 
@@ -113,7 +113,7 @@ horizontalRule{
 
 /*grid*/
 .tiles{
-  margin-bottom: -1.7rem;
+  margin-bottom: -1.03rem;
 }
 
 .special-image{
