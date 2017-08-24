@@ -22,4 +22,18 @@
   padding-top: 20vh;
 }
 
+.footerTop{
+  background: #4B4949;
+  color: white;
+}
+
+.footerMid{
+  background: #363636;
+  color: white;
+}
+
+.footerBottom{
+  background: #1C1B1B;
+  color: #5D7B7B;
+}
 
