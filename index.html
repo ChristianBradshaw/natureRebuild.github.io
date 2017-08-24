@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="/resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/9f40b6761f.js"></script>
     <title>Nature Conservancy</title>
   </head>
@@ -13,24 +14,79 @@
 <!--    navbar-->
 
 <nav class="navbar navbar-expand-lg navbar-light">
-  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse  justify-content-center" id="navbarNav">
     <ul class="navbar-nav">
      <a class="navbar-brand" href="#"><img src="/resources/img/logo.png" alt=""></a>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">our work</a>
+      <li class="nav-item navbar">
+        <div class="dropdown">
+          <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            OUR WORK
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           
+          </div>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">get involved</a>
+      <li class="nav-item navbar">
+        <div class="dropdown">
+          <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            GET INVOLVED
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="paddingKill">
+              <li><a href="https://www.nature.org/about-us/visit-preserve-map/index.htm?intc=nature.tnav.getinvolved">Visit a Preserve</a></li>
+              <li><a href="https://www.nature.org/about-us/volunteer/index.htm?intc=nature.tnav.getinvolved">Volunteer</a></li>
+              <li><a href="https://www.nature.org/membership-giving/index.htm?intc=nature.tnav.getinvolved">Give</a></li>
+              <li><a href="https://support.nature.org/site/SPageNavigator/action_center/action_center.html?intc=nature.tnav.getinvolved">Take Action</a></li>
+              <li><a href="https://www.nature.org/about-us/youth/index.htm?intc=nature.tnav.getinvolved">Youth Programs</a></li>
+              <li><a href="https://support.nature.org/site/SPageNavigator/supporter/email_reg_main.html?intc=nature.tnav.getinvolved">Sign up for E-news</a></li>
+              <li><a href="http://www.nature.org/greenliving/carboncalculator/index.htm?intc=nature.tnav.getinvolved&ref=www.nature.org">Carbon Calculator</a></li>
+              <li><a href="https://www.nature.org/photos-and-video/photography/photo-contest/index.htm?intc=nature.tnav.getinvolved">Photo Contest</a></li>
+            </ul>
+          </div>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">about us</a>
+      <li class="nav-item navbar">
+        <div class="dropdown">
+          <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ABOUT US
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <ul class="paddingKill">
+             <li><a href="https://www.nature.org/about-us/vision-mission/index.htm?intc=nature.tnav.about">Mission</a></li>
+             <li><a href="https://www.nature.org/about-us/vision-mission/history/index.htm?intc=nature.tnav.about">History</a></li>
+             <li><a href="https://www.nature.org/about-us/our-accountability/index.htm?intc=nature.tnav.about">Accountability</a></li>
+             <li><a href="https://www.nature.org/about-us/governance/index.htm?intc=nature.tnav.about">Leadership</a></li>
+             <li><a href="https://www.nature.org/about-us/diversity/index.htm?intc=nature.tnav.about">Diversity</a></li>
+             <li><a href="http://www.nature.org/newsfeatures/pressreleases/index.htm?intc=nature.tnav.about&ref=www.nature.org">Newsroom</a></li>
+             <li><a href="https://www.nature.org/about-us/careers/index.htm?intc=nature.tnav.about">Careers</a></li>
+             <li><a href="https://www.nature.org/about-us/contact/index.htm?intc=nature.tnav.about">Contact Us</a></li>
+           </ul>
+          </div>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">membership and giving</a>
+      <li class="nav-item navbar">
+        <div class="dropdown">
+          <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            MEMBERSHIP &amp; GIVING
+          </button>
+          <div class="dropdown-menu text-left" aria-labelledby="dropdownMenuButton">
+            <ul class="paddingKill">
+              <li><a href="https://www.nature.org/membership-giving/membership/index.htm?intc=nature.tnav.give">Membership</a></li>
+              <li><a href="https://www.nature.org/membership-giving/membership/become-member/index.htm?intc=nature.tnav.give">Join</a></li>
+              <li><a href="https://www.nature.org/membership-giving/membership/renew-membership/index.htm?intc=nature.tnav.give">Renew</a></li>
+              <li><a href="https://www.nature.org/membership-giving/donation/monthly-giving/index.htm?intc=nature.tnav.give">Give Monthly</a></li>
+              <li><a href="https://www.nature.org/membership-giving/membership/gift-memberships/index.htm?intc=nature.tnav.give">Gift Membership</a></li>
+              <li><a href="https://gifts.nature.org/?ref=site&intc=nature.tnav.give">Gift Catalog</a></li>
+              <li><a href="https://www.nature.org/gift-planning/index.htm?intc=nature.tnav.give">Gift &amp; Estate Planning</a></li>
+              <li><a href="https://www.nature.org/membership-giving/more-ways-to-give/tribute-honor-giving/index.htm?intc=nature.tnav.give">Honor &amp; Tribute Giving</a></li>
+              <li><a href="https://www.nature.org/membership-giving/more-ways-to-give/index.htm?intc=nature.tnav.give">Other Ways to Give</a></li>
+            </ul>
+          </div>
+        </div>
       </li>
       <a href="" class="btn btn-warning btn-lg">Give Monthly</a>
       <a href="" class="btn btn-warning btn-lg">Renew</a>

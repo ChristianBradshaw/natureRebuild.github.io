@@ -1,3 +1,7 @@
+body{
+  font-family: 'Open Sans', verdana, sans-serif;
+}
+
 .btn{
   border-radius: 0;
 }
@@ -22,6 +26,38 @@
   padding-top: 20vh;
 }
 
+
+horizontalRule{
+  color: white;
+}
+
+/*navbar*/
+
+#dropdownMenuButton{
+  color: #333333;
+  font-weight: 700;
+}
+
+.navbar-nav li{
+  list-style: none;
+  padding: 5px;
+}
+
+.navbar-nav li a{
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.paddingKill{
+  padding: 5px 20px;
+}
+
+/*navbar*/
+
+/*FOOTER*/
+
+
 .footerTop{
   background: #4B4949;
   color: white;
@@ -37,6 +73,4 @@
   color: #5D7B7B;
 }
 
-horizontalRule{
-  color: white;
-}
+/*FOOTER*/
