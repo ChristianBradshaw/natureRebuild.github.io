@@ -2,8 +2,47 @@ body{
   font-family: 'Open Sans', verdana, sans-serif;
 }
 
+li{
+  list-style: none;
+}
+/*HEADERS*/
+
+h2, h3, h6{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+h1{
+  margin-bottom: 16px;
+}
+
+h4{
+  margin-bottom: 25px;
+  font-family: "Open Sans", verdana, sans-serif;
+}
+
+h6{
+  margin: 2vh;
+}
+
+/*HEADERS*/
+
+
 .btn{
   border-radius: 0;
+}
+
+.email{
+  margin-right: 6px;
+  padding: 7px 12px;
+}
+
+.generic{
+  margin: 4vh 0;
+}
+
+.inputButton{
+  padding: 8px 12px;
 }
 
 .jumbotron{
@@ -61,23 +100,60 @@ horizontalRule{
 }
 
 /*navbar*/
+/*news*/
+.news{
+  margin-bottom: -1.5rem;
+}
+/*news*/
+
+/*grid*/
+.tiles{
+  margin-bottom: -1.7rem;
+}
+
+
+/*grid*/
+
 
 /*FOOTER*/
 
+.footerTop, .footerMid, .footerBottom{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+hr{
+  color: #fff;
+}
+
+.email{
+  width: 200px;
+}
 
 .footerTop{
   background: #4B4949;
   color: white;
 }
 
+
+.socialIcons{
+  font-size: 30px;
+}
+
+
 .footerMid{
   background: #363636;
   color: white;
+  padding-top: 28px;
 }
 
 .footerBottom{
   background: #1C1B1B;
-  color: #5D7B7B;
+  color: #7c7b7b;;
+}
+
+.footerBottom a, .footerMid a{
+  color: #fff;
 }
 
 /*FOOTER*/
